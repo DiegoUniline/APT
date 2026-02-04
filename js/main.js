@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const target = document.querySelector(href);
             if (target) {
-                window.scrollTo({ top: target.offsetTop - 74, behavior: 'smooth' });
+                window.scrollTo({ top: target.offsetTop - 138, behavior: 'smooth' });
                 if (nav) { nav.classList.remove('active'); menuToggle.classList.remove('active'); }
             }
         });
